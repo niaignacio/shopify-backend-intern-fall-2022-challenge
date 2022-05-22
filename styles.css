@@ -1,0 +1,20 @@
+#items-display {
+     list-style-type: none;
+}
+.item {
+     background-color: #ceedd7;
+     border-radius: 15px;
+     margin: 5px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+.inline {
+     display: flex;
+     flex-direction: row;
+}
+.inline * {
+     margin-left: 5px;
+}
+.hidden {
+     display: none;
+}
